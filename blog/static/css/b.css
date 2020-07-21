@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #333;
+	line-height: 1.6;
+	width: 100%;
+}
+
+#logo {
+	color: #d1d1d1;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+ }
+*,
+*:before,
+*after {
+	box-sizing: border-box;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center ;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.intro {
+	width: 100%;
+	height: 100vh;
+	background: url("images/inro.jpg.") center
+	no-repeat;
+	-webit-background-size: cover;
+	background-size: cover;
+}
+.nav{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.nav_link {
+	font-weight: 700;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+	color: #d1d1d1;
+	text-decoration: none;
+
+	transition: color 0.2s linear;
+}
+.nav_link:hover {
+	color: #fce38a;
+	text-decoration: none;
+}
+.header{
+	padding-top: 30px;
+	color: #d1d1d1;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	
+}
+.header__logo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.posts{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	height: 100%
+	color: red;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: red;
+
+}

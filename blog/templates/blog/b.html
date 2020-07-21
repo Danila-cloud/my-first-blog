@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<title>Lampa</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">Lampa</div>
+				<nav class="nav">
+			<a class="nav_link" href="#">Поддержка</a>
+			<a class="nav_link" href="#">Отзывы</a>
+			<a class="nav_link" href="#">Профиль</a>
+		</nav>
+			</div>
+		</div>
+	</header>
+<div class="intro">
+	
+
+	<div class="container">
+		
+		
+	</div>
+</div>
+<div class="posts" > 
+	{% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
+
+</div>
+	
+</body>
+</html>
