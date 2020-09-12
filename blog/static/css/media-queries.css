@@ -1,4 +1,5 @@
-@media only screen and (max-width: 1101px) {
+{% load static %}
+@media screen and (max-width: 1101px) {
 	#logo{
     margin-top: 5px;
     margin-bottom: 4px;
