@@ -1,23 +1,75 @@
 {% load static %}
-<html>
-    <head>
-        <title>Lampa blog</title>
-        <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    </head>
-    <body>
-        <div class="page-header">
-        <h1><a href="/">Lampa Blog</a></h1>
-    </div>
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
-            {% block content %}
-            {% endblock %}
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/top.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div id="textura"></div>
+    <div id="head">
+        <div id="logo">
+            <img id="logoid" src="/static/css/img/gladiator-gym-logo-troeshina.jpg">
+        </div>
+        <div id="number">
+            <p> +38 (095) 847 43 41</p>
+            <a id="instagram" font-size='18' href='https://www.instagram.com/gladiator_gym7/'>Instagram</a></p>
+        </div>
+        <div id="adress">
+            <p>Gladiator Gym<br />
+            Київ,Україна, 02000<br />
+         вулиця Костянтина<br />
+             Данькевича, 12</p>
         </div>
     </div>
-    </body>
+<div id="nav" align="center">
+    <nav id="hnav">
+        <a align='center' class="nav_link" href='#'>Главная</a>
+        <a align='center' class="nav_link" href='#'>Расписание</a>
+        <a align='center' class="nav_link" href='#'>Цены</a>
+        <a align='center' class="nav_link" href='#'>Услуги</a>
+    </nav>
+</div>
+<div id="plusi">
+    <h3 id="h">Преимущества занятий в тренажерных залах в Gladiator Gym:</h3>
+    <p id="text"> Профессионализм "ТРЕНЕРСКОГО СОСТАВА". Занятия в тренажерном зале Gladiator Gym проводят профессиональные тренеры. Это не просто дипломированные специалисты, но и обладатели различных титулов, полученных на соревнованиях по фитнесу и бодибилдингу. Многие наши инструкторы - чемпионы мира и Европы в различных видах спорта. Инструкторы постоянно повышают квалификацию, есть специалисты международной категории. Наши специалисты в процессе обучения в тренажерном зале помогут Вам добиться всех поставленных целей, основываясь на большом личном опыте.</p>
+    <br />
+    <br />
+</div>
+<div id="mapadiv">
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.7687807959933!2d30.619788357820802!3d50.519868874647145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d11b865df1b3%3A0x971d5c813a77afde!2z0YPQuy4g0JrQvtC90YHRgtCw0L3RgtC40L3QsCDQlNCw0L3RjNC60LXQstC40YfQsCwgMTIsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1598908713498!5m2!1sru!2sua" width="1200" height="550" frameborder="8px" style="border:10;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+<div id="foot">
+    <div id="footdiv1">
+        <h4 id="footh">ПОСЕТИТЕ НАШ КЛУБ</h4>
+        <ul id="footinfa">
+            <li class="li">
+                <img class="limarker" src="/static/css/img/8168.png" align="left">
+                ул. Константина Данькевича, 12<br />
+                    Киев, Украина, 02000<br />
+            </li>
+            <li class="li" id="li2">
+                <img class="limarker" src="/static/css/img/phone_PNG48972.png" align="left">
+                +38 (095) 847 43 41<br /><br />
+            </li>
+            <li class="li" id="li3">
+                <img class="limarker" src="/static/css/img/84517.png" align="left">
+                gladiator_gym@i.ua<br />
+                info@gladiator-gym.com.ua<br />
+            </li>
+        </ul>
+    </div>
+    <div id="footdiv2">
+        <img id="footlogo" src="/static/css/img/gladiator-gym.png" >
+        <p id="avtorlogo">© 2018 Gadiator Gym</p>
+    </div>
+</div>
+</body>
 </html>
