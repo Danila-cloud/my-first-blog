@@ -1,0 +1,33 @@
+{% load static %}
+@media screen and (max-width: 717px min-width: 320px) {
+    #mapadiv{
+        display: none;
+    }
+    #karta{
+        display: none;
+    }
+    #mapa{
+        display: none;
+    }
+    #footdiv2{
+    margin-right:0px;
+    }
+    #logo{
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left:2%;
+    float: left;
+    height: 124px;
+    width: 20%;
+    }
+    #logo{
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left:20%;
+    float: left;
+    height: 12px;
+    width: 20%;
+
+}
+}

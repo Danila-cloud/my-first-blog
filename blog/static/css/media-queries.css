@@ -126,5 +126,186 @@
     height: 30px;
     width: 30px;
 }
-    }
+}
 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 718px) {
+#textura{
+    height: 65px;
+    width: 100%;
+    background: url('img/unnamed.jpg') center  no-repeat;
+    background-size: cover;
+}
+#head{
+    border-bottom:1px solid #594f4f;
+    height: 140px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+#logo{
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left:20%;
+    float: left;
+    height: 124px;
+    width: 100%;
+
+}
+#number{
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 2%;
+    float: left;
+
+    width:100%;
+}
+#adress{
+    margin-top: 10px;
+    font-weight: bold;
+    color:#bf8819;
+    margin-right: 9%;
+    float: left;
+    height: 124px;
+    width: 10%;
+    font-family: Comic Sans MS, Comic Sans, cursive ;
+}
+#nav{
+    margin-right: 25%;
+    font-family: IMPACT;
+    border-bottom:1px solid #594f4f;
+    height: 100px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.nav_link{
+    margin:0;
+    text-align: center;
+    margin: 8px;
+    margin-bottom: -8px;
+    text-decoration: none;
+    color: #f0efeb;
+    transition: color .2s linear;
+}
+.nav_link:hover{
+    color:#bf8819;
+
+}
+#inst{
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    margin-right: : 3px;
+}
+#instagram{
+    text-decoration: none;
+    font-size: 24px;
+    color:#ffffff;
+}
+#instagram:hover{
+    text-decoration: underline #c7b9b9 ;
+    color:#c7b9b9;
+}
+#plusi{
+    margin:0;
+    background: url('img/white-paper-texture-background-or-cardboard-surface-from-a-paper-box-for-packing-and-for-the-s-decoration-and-nature-background_174431-9.jpg') center  no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#h{
+    margin-top: 30px;
+    color:#000000;
+    font-size: 40px;
+    text-align: center;
+    margin:0;
+}
+#text{
+    color:#2e2e2e;
+    font-family: VERDANA;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+#foot{
+    background: url('img/unnamed.jpg') center  no-repeat;
+    background-size: cover;
+}
+#footh{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#foot div{
+    margin-top: 30px;
+    width: 100%;
+
+    background:background: rgba(205, 214, 219, 0);
+
+}
+#footdiv1{
+    width: 100%;
+    margin-left:0px; 
+
+}
+#footdiv2{
+    width: 20%;
+    margin-right: 0px;
+    
+}
+#footlogo{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0;
+}
+#avtorlogo{
+    margin:0;
+    text-align: center;
+}
+.znak{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+#footinfa{
+    font-size: 14px;
+}
+.li{
+    margin:15px;
+    color:#000000;
+    list-style-type: none;
+}
+.limarker{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+#mapadiv{display: none;
+    height: 700px;
+    position: relative;
+    background: url('img/62e172435cdc6b6b655c9d8c0be04ec4.jpg') center  no-repeat;
+    background-size: cover;
+}
+#mapa{
+    display: none;
+    border:3px #ff0000;
+    position: absolute;
+    margin: auto;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+}
