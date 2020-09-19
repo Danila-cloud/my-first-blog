@@ -180,5 +180,11 @@ body{
     transform: translate(-50%, -50%)
 
 }
+#pricekartinka{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
-    background-color: #a19c9c;
+#osnova{
+    background-color: #ffffff;
+}

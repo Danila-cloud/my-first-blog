@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Post
 from django.utils import timezone
@@ -15,3 +16,16 @@ def post_detail(request, pk):
     return render(request, 'blog/post_detail.html', {'post': post})
 
 
+
+def price(request):
+    return render(request, 'blog/price.html', {})
+
+
+
+def uslugi(request):
+    return render(request, 'blog/uslugi.html', {})
+
+
+
+def raspisanie(request):
+    return render(request, 'blog/raspisanie.html', {})
