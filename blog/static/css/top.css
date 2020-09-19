@@ -48,7 +48,11 @@ body{
     width: 10%;
     /*font-family: Comic Sans MS, Comic Sans, cursive ;*/
 }
+#hnav{
+    margin-right: 30%;
+}
 #nav{
+    width: 100%;
     margin-right: 25%;
     font-family: IMPACT;
     border-bottom:1px solid #594f4f;
@@ -57,8 +61,6 @@ body{
     text-decoration: none;
 }
 .nav_link{
-    margin:0;
-    text-align: center;
     margin: 8px;
     margin-bottom: -8px;
     text-decoration: none;
@@ -220,4 +222,10 @@ body{
 #shkaf{
     font-size: 30px;
     font-family: IMPACT;
+}
+#slaid{
+    width: 100%;
+}
+#slaidphoto{
+    width: 100%;
 }
