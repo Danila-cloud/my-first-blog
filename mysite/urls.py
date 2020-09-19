@@ -22,5 +22,4 @@ urlpatterns = [
     path(r'', include('blog.urls')),
     path(r'^price/$', include('blog.urls')),
     path(r'^uslugi/$', include('blog.urls')),
-    path(r'^raspisanie/$', include('blog.urls')),
 ]

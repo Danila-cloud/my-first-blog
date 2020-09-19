@@ -24,8 +24,3 @@ def price(request):
 
 def uslugi(request):
     return render(request, 'blog/uslugi.html', {})
-
-
-
-def raspisanie(request):
-    return render(request, 'blog/raspisanie.html', {})

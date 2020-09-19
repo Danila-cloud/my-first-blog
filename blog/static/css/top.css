@@ -181,9 +181,43 @@ body{
 
 }
 #pricekartinka{
-    width: 90%;
+    width: 100%;
 
 }
 #osnova{
     background-color: #ffffff;
+}
+#osnovsuslugi{
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom:  -10px;
+    color: #000000;
+}
+.hsolariy{
+    font-size: 50px;
+}
+.imguslugi{
+    padding: 15px;
+    width: 48%;
+
+}
+#osnovsuslugi1{
+    font-size: 30px;
+}
+#solariytext{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: IMPACT;
+}
+#table{
+    width: 60%;
+    text-align: center;
+
+
+}
+#shkaf{
+    font-size: 30px;
+    font-family: IMPACT;
 }
