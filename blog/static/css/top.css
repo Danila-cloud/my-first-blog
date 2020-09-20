@@ -229,3 +229,8 @@ body{
 #slaidphoto{
     width: 100%;
 }
+.th{
+    padding: 4px;
+    text-align: center;
+    font-family: IMPACT;
+}
